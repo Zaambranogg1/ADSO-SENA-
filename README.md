@@ -1,20 +1,41 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="CALMA Banner" src="https://github.com/user-attachments/assets/tu-imagen-aqui.jpg" />
+
+# ☕ CALMA - Specialty Coffee Experience
+
+*Encuentra tu momento de paz en cada taza. Un ecosistema digital aesthetic y minimalista para amantes del buen café.*
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 🤎 Sobre el Proyecto
 
-View your app in AI Studio: https://ai.studio/apps/17d46c62-b74c-49ee-a7d2-8dcb8315a14f
+**CALMA** es un sistema integral (Web, Móvil y Backend) diseñado como evidencia para el programa ADSO del SENA (GA7-220501096-AA3-EV01). Este proyecto ofrece un catálogo interactivo de cafés de especialidad, destacando por su diseño UI/UX en tonos tierra, animaciones CSS fluidas (efectos "wow") y una arquitectura Cliente-Servidor robusta.
 
-## Run Locally
+## Características Principales
 
-**Prerequisites:**  Node.js
+* **Diseño UI/UX Aesthetic:** Paleta de colores cálida (Espresso, Caramelo, Crema) y tipografías modernas.
+* **Animaciones Interactivas:** Tarjetas de catálogo con efectos *hover* y transiciones suaves.
+* **API RESTful:** Catálogo dinámico servido desde un backend en Node.js.
+* **Multiplataforma:** Interfaces diseñadas para Web (React.js) y Móvil (Flutter).
 
+## Tecnologías Utilizadas
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Frontend Web:** React.js, CSS3 (Keyframes & Transitions)
+* **Frontend Móvil:** Flutter (Dart)
+* **Backend:** Node.js, Express
+* **IA Integrada:** Gemini API (generación de contenido/asistencia)
+
+---
+
+## Instalación y Ejecución Local
+
+Sigue estos pasos para correr el entorno web y el backend en tu máquina local.
+
+**Requisitos previos:** Asegúrate de tener instalado [Node.js](https://nodejs.org/) en tu sistema.
+
+1. **Clona este repositorio e instala las dependencias:**
+   ```bash
+   git clone [https://github.com/tu-usuario/calma-cafe-project.git](https://github.com/tu-usuario/calma-cafe-project.git)
+   cd calma-cafe-project
+   npm install
